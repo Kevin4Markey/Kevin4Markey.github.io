@@ -12,7 +12,7 @@ nav {
   
   nav ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 1px;
   }
   
   nav ul li a {
@@ -78,12 +78,13 @@ nav {
   
   section {
     margin-bottom: 50px;
+    
   }
   
   h2 {
-    font-size: 45px;
+    font-size: 69px;
     color: #bb0ccb;
-    margin-bottom: 35px;
+    margin-bottom: 95px;
   }
   
   ul {
@@ -92,9 +93,9 @@ nav {
   }
   
   li {
-    font-size: 18px;
+    font-size: 65px;
     line-height: 1.5;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   footer {
@@ -109,7 +110,7 @@ nav {
     font-size: 16px;
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 480px) {
     header {
       height: 50px;
     }
@@ -118,3 +119,4 @@ nav {
       font-size: 24px;
     }
   }
+  
