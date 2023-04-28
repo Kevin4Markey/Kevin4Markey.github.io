@@ -1,0 +1,106 @@
+nav {
+    background-color: #333;
+    color: #090000;
+    padding: 10px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #100e0e;
+    text-decoration: none;
+  }
+  
+  header {
+    background-image: url('mslogo.png'); 
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /*body {
+    background-image: url("mslogo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+  }*/
+  .button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: #070707;
+    text-shadow: 2px 2px #766f6f;
+  }
+  
+  main {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-size: 45px;
+    color: #bb0ccb;
+    margin-bottom: 35px;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #bf1ed8;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      height: 50px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  }
+  
