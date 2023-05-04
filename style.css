@@ -30,8 +30,8 @@ nav {
   }
 /* Styles for desktop screens */
 #header {
-  background-color: #f2f2f2;
-  padding: 20px;
+  background-color: #000000;
+  padding: 5px;
   font-size: 24px;
 }
 
@@ -73,7 +73,7 @@ nav {
   main {
     max-width: 350px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
   }
   
   section {
@@ -112,6 +112,7 @@ nav {
   
   @media screen and (max-width: 480px) {
     header {
+      background-color: #000000;
       height: 50px;
     }
   
